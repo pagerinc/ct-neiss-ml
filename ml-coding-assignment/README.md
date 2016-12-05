@@ -29,9 +29,8 @@ Requirements: Python-2.7.X and most up-to-date pip.
 To build and deploy your own Neiss scoring server from this repo:
 ```
 # clone repo
-git clone "https://github.com/bkvillalobos/ml-coding-assignment.git"
-cd ml-coding-assignment/
-cd ml-coding-assignment/neiss/
+git clone "https://github.com/bkvillalobos/ct-neiss-ml.git"
+cd ct-neiss-ml/neiss/
 
 # unzip seralized model
 gunzip models/20161205-01-43-30_rf_weighted_resampling.pkl.gz 
