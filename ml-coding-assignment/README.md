@@ -77,6 +77,6 @@ The model has an out-of-sample predictive accuracy of ~96.6%. Raw model accuracy
 
   ![Alt text](RF weighted sampling with replacement.png?raw=true "Results for RF weighted sampling with replacement")
 
-As you can see, the model has a greater than 50% chance of correctly predicting any disposition category - even disposition 9, which was only observed 32 times out of the entire NEISS survey of ! Performance dramatically increases with the more slightly more frequent catgories of 2 and 4 (each < 6% of training data), and is virtually perfect for dispositon category 1.
+As you can see, the model has a greater than 50% chance of correctly predicting any disposition category - even disposition 9, which was only observed 32 times out of the entire NEISS survey of ~2.7 million records! Performance dramatically increases with the slightly more frequent catgories of 2 and 4 (each < 6% of training data), and is virtually perfect for dispositon category 1.
 
 These results were obtained (and can be reproduced end-to-end from the raw NEISS data) in **research_and_dev.ipynb**.
