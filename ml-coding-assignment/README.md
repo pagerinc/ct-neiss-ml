@@ -30,7 +30,7 @@ To build and deploy your own Neiss scoring server from this repo:
 ```
 # clone repo
 git clone "https://github.com/bkvillalobos/ct-neiss-ml.git"
-cd ct-neiss-ml/neiss/
+cd ct-neiss-ml/ml-coding-assignment/neiss/
 
 # unzip seralized model
 gunzip models/20161205-01-43-30_rf_weighted_resampling.pkl.gz 
