@@ -71,7 +71,7 @@ Implemented components:
   * **20161205-01-43-30_rf_weighted_resampling.pkl.gz** - serialized and compressed skicit-learn model object. Currently holds a weighted resampled Random Forest trained on 12/05/2015, but it's designed to hold multiple versions and different kinds of models. Only most recent model of type [model_type] is used.
 
 ## Model Accuracy Summary
-**See my email attachment for a longer discussion on model methodology & development.**
+**See "NEISS Survey Data Model.pdf" in this repo for a longer discussion on model methodology & development.**
 
 The model has an out-of-sample predictive accuracy of ~96.6%. Raw model accuracy can be misleading with this type of unbalanced data (91% of observations are of disposition 1, so you can get 91% accuracy for just predicting 1 for everything!). So, I've included a breakdown of accuracy conditioned upon disposition:
 
